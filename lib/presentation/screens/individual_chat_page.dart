@@ -38,7 +38,7 @@ class _IndividualChatPageState extends State<IndividualChatPage> {
 
   _connectSocket() {
     _socket = IO.io(
-      'https://chat-education-project.herokuapp.com/',
+      'https://my-chats-demo.herokuapp.com/',
       IO.OptionBuilder().setTransports(['websocket']).build(),
     );
     _socket.connect();
