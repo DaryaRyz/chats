@@ -68,15 +68,6 @@ class _ChooseRolesScreenState extends State<ChooseRolesScreen> {
                     HomeScreenRoute(
                         chatModels: chatModels, sourceChat: sourceChat),
                   );
-              // Navigator.pushReplacement(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: (builder) => HomeScreen(
-              //       chatModels: chatModels,
-              //       sourceChat: sourceChat,
-              //     ),
-              //   ),
-              // );
             },
             child: PersonCard(
               chatModels: chatModels[index],
